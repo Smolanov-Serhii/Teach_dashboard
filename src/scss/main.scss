@@ -154,7 +154,12 @@ html {
     flex-direction: column;
     justify-content: space-between;
     z-index: 0;
-
+    &-items{
+      transition: 0.3s;
+      &.opacity{
+        opacity: 0.3;
+      }
+    }
     &-item {
       padding: 13px 13px 13px 21px;
 
@@ -237,7 +242,7 @@ html {
         background-color: #767620;
         border-radius: 0 0 29px 29px;
         display: none;
-
+        z-index: 2;
         li {
           a {
             display: flex;

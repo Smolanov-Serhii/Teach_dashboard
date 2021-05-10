@@ -1,6 +1,7 @@
 $(document ).ready(function() {
     $('.lang-current').click(function() {
         $(this).toggleClass("active")
+        $('.dashboard__nav-items').toggleClass("opacity")
         $( ".lang-list" ).slideToggle( "easing" );
     });
 
