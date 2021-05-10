@@ -110,7 +110,6 @@ html {
     background-color: #767620;
     padding-bottom: 70px;
     text-align: center;
-
     &-img {
       display: inline-flex;
       width: 48px;
@@ -136,7 +135,9 @@ html {
       font-weight: 600;
       font-size: 24px;
       line-height: 105.5%;
-      color: #D3D360;;
+      color: #D3D360;
+      display: flex;
+      justify-content: center;
     }
   }
 
